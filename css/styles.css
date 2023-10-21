@@ -1,0 +1,50 @@
+h1 {
+	text-align: center;
+}
+
+body{
+	background-color: #c8a565;
+}
+
+article{
+	float:left;
+	width:70%;
+}
+
+.avi{
+	width:100%;
+	height:auto;
+}
+
+.text-area {
+	/* width: 60%; */
+	border: 1px solid black;
+
+}
+
+.img-area {
+	float: right;
+	margin: 0 1% 1% 0;
+	width: 169px;
+	height: 169px;
+}
+.clear{
+	clear:both;
+}
+
+.id:before{
+	content:attr(data-website) "\0040" attr(data-user);
+	unicode-bidi: bidi-override;
+	direction: rtl;
+}
+
+.mail{
+	display:none;
+	visibility: hidden;
+}
+
+@media screen and (max-width: 640px){
+	body{
+		background-color: #c8a565;
+	}
+}
